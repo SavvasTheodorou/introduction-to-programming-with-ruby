@@ -111,13 +111,13 @@ puts "The factorial of 6 is #{ 6 * 5 * 4 * 3 * 2 * 1 }"
 puts "The factorial of 7 is #{ 7 * 6 * 5 * 4 * 3 * 2 * 1 }"
 puts "The factorial of 8 is #{ 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 }"
 
-# There must be an easier way
+# # There must be an easier way
 # def factorial(num)
 #   new_num = num
 #   factorial_num = num
 #   while new_num <= 1
 #     factorial_num = num * new_num
-#     new_num =- 1
+#     new_num -= 1
 #     return factorial_num
 #     ending_num = 0
 #     return ending_num # = factorial_num + ending_num
