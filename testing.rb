@@ -20,8 +20,16 @@
 # puts some_method(a)
 # puts a
 
-def add_three(n)
-  n + 3
-end
+# def add_three(n)
+#   n + 3
+# end
 
-add_three(5)
+# add_three(5)
+
+a = 0
+
+if a
+  puts "How can this be true?"
+else
+  puts "it is not true"
+end
